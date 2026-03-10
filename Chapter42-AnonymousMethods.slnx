@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="CodingPractice-01\CodingPractice-01.csproj" />
+  <Project Path="CodingPractice-02\CodingPractice-02.csproj" />
+  <Project Path="CodingPractice-03\CodingPractice-03.csproj" />
+  <Project Path="CodingPractice-04\CodingPractice-04.csproj" />
+  <Project Path="CounterFactory\CounterFactory.csproj" />
+  <Project Path="DataProcessor\DataProcessor.csproj" />
+</Solution>
