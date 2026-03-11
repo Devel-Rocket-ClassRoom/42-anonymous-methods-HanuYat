@@ -27,9 +27,8 @@ class CounterFactory
         return () =>
         {
             for (int i = min; i <= max; i++)
-            {
-                _count++;
-                return _count;
+            {              
+                return _count++;
             }
         };
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class DataProcessor
 {
-    private int[] _data = new int[50];
+    private int[] _data;
 
     public DataProcessor(int[] i)
     {
@@ -23,8 +23,8 @@ class DataProcessor
         List<int> result = new List<int>();
 
         for (int i = 0; i < _data.Length; i++)
-        {
-            result.Add(_data[i] * 2);
+        {            
+            result.Add(transformer(_data[i]));
         }
 
         return result;
